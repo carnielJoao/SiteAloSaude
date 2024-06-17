@@ -1,0 +1,310 @@
+:root {
+    --azulPmfEscuro: #002f66;
+    --azulPmfClaro: #0093d4;
+    --brancoPmf: #ffffff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: var(--brancoPmf);
+    padding: 20px;
+    margin: 0;
+}
+
+.logo {
+    width: 270px;
+    height: auto;
+    margin-right: 80px;
+}
+
+.material-symbols-outlined {
+    font-size: 60px;
+}
+
+#burger {
+    float: right;
+}
+
+nav {
+    align-content: center;
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--azulPmfEscuro);
+    padding: 50px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Ajuste da tag <h1>, <p>, <mark> */
+
+.ajustH1 {
+    font-weight: 900;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.ajustH1-2 {
+    font-weight: 900;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.ajustH1-3 {
+    font-weight: 900;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ajustH1passo {
+    font-weight: 900;
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.ajustp {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.tirar {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.ajustp-1 {
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+mark {
+    background-color: var(--azulPmfClaro);
+    color: var(--brancoPmf);
+    padding: 0.2em;
+}
+
+/* Padrão de cor */
+
+.aZe {
+    background-color: var(--azulPmfEscuro);
+}
+
+.aZc {
+    background-color: var(--azulPmfClaro);
+}
+
+.cb {
+    background-color: var(--brancoPmf);
+}
+
+.ag {
+    background-image: linear-gradient(var(--azulPmfEscuro), var(--azulPmfClaro));
+}
+
+/* Padrão das section */
+
+.teste {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+.padraoAzul {
+    color: var(--brancoPmf);
+    padding: 20px;
+}
+
+.padraoBranco {
+    color: var(--azulPmfEscuro);
+    padding: 20px;
+}
+
+.ajustAlinhamentoMeio {
+    text-align: center;
+}
+
+.ajustAlinhamentoMeio2 {
+    padding: 10px 10px 0px 10px;
+    text-align: center;
+}
+
+.ajustAlinhamentoMeio3 {
+    padding: 0px 10px 10px 10px;
+    text-align: center;
+}
+
+.ajustAlinhamentoLado {
+    display: inline-block;
+    padding: 15px;
+    margin-right: 25px;
+}
+
+.ajustAlinhamentoLado2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hh {
+    margin-left: 80px;
+}
+
+/* css do modulo 1 */
+
+.dp {
+    display: flex;
+}
+
+.medicoTablet {
+    position: absolute;
+    top: 160px;
+    height: 530px;
+    /* margin-left: 3%; */
+}
+
+#md1 {
+    margin-left: 8%;
+}
+
+/* css do modulo 2 */
+
+.ajustImagemMd2 {
+    height: 120px;
+    width: 95px;
+    padding: 5px;
+}
+
+.telefoneAumentado {
+    font-size: 35px;
+}
+
+/* css do modulo 3 */
+
+.ajustImagemMd3-1 {
+    height: 110px;
+    width: 110px;
+    padding: 5px;
+}
+
+.ajustMd3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* css do modulo 4 */
+
+.ajustImagemMd4-1 {
+    height: 110px;
+    width: 65px;
+    padding: 10px;
+}
+
+.ajustImagemMd4-2 {
+    height: 95px;
+    width: 110px;
+    padding: 10px;
+}
+
+/* css do modulo 5 */
+
+.ajustImagemMd5-1 {
+    width: 60px;
+    height: 50px;
+    padding: 5px;
+}
+
+.ajustImagemMd5-2 {
+    height: 100px;
+    padding: 10px;
+}
+
+.ajustImagemMd5-3 {
+    height: 80px;
+    padding: 10px;
+}
+
+/* css do modulo 6 */
+
+.ajustImagemMd6 {
+    width: 140px;
+    height: 150px;
+    padding: 20px;
+}
+
+/* css do modulo 8 */
+
+.ajustImagemApp {
+    width: 185px;
+    height: 65px;
+    padding: 5px;
+}
+
+@media screen and (max-width: 850px) {
+    .medicoTablet {
+        display: none;
+    }
+
+    nav a {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 724px) {
+    .medicoTablet {
+        display: none;
+    }
+
+    .teste {
+        flex-direction: column;
+        padding: auto;
+    }
+
+    .ajustAlinhamentoLado2 {
+        flex-direction: column;
+    }
+
+    .ajustAlinhamentoLado {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    .ajustH1-3 {
+        font-size: 40px;
+    }
+
+    .ajustH1 {
+        font-size: 35px;
+        padding: 5px;
+    }
+
+    .ajustp-1 {
+        font-size: 25px;
+    }
+
+
+}
